@@ -1,0 +1,104 @@
+.content{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--letra-navLinks);
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    color: var(--color-gris);
+}
+
+.container{
+    font-family: var(--letra-nav);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+}
+
+.container .card{
+    position: relative;
+    cursor: pointer;
+    padding: 2em;
+}
+
+.container .card .face{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.container .card .face.face1{
+    position:relative;
+    background:var(--color-blanco-solido);
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    transform:translateY(100px);
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover .face.face1{
+    background: var(--color-blanco-solido);
+    transform: translateY(0);
+}
+
+.card .face.face1 .content{
+    opacity:1;
+    transition: 0.5s;
+}
+
+.card:hover .face.face1 .content{
+    opacity: 1;
+}
+
+.card .face.face1 .content img{
+    max-width: 300px;
+}
+
+.card .face.face1 .content h3{
+    margin:10px 0 0;
+    padding:0;
+    color:var(--color-blanco);
+    text-align:center;
+    font-size: 20px;
+
+}
+
+.card .face.face2{
+    position: relative;
+    background: var(--color-blanco-solido);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 28px 50px var(--color-sombras);
+    transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+    transform: translateY(0);
+
+}
+.container .card:hover .face.face2 p{
+    margin: 0;
+    padding: 0;
+}
+
+.container .card .face.face2 .content a{
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: var(--color-gris);
+    padding: 5px;
+    border:1 px solid var(--color-negro);
+}
+
+.container .card .face.face2 .content a:hover{
+    background: var(--color-negro);
+    color: var(--color-blanco);
+}

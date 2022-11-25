@@ -1,0 +1,96 @@
+h1 {
+    margin: 0;
+    color: var(--color-blanco-solido);
+    text-align: center;
+    font-size: 5em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 5em 0;
+  }
+  
+  h2 {
+    margin: 0;
+    color: var(--color-blanco);
+    font-size: 3em;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+  }
+  
+  .div-form {
+    background: var(--color-azul); 
+    margin: 0 2em;
+    padding: 2em;
+    border-radius: 1em;
+    box-sizing: border-box;
+    font-family: var(--letra-nav);
+  }
+
+  .div-form form{
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .group {
+    display: flex;
+    padding: 15px 5px;
+    background-color: var(--color-blanco-solido);
+  }
+  
+  .form-group {
+    margin: 10px 10px;
+    width: 90%;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1.3em;
+    color: var(--color-blanco);
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+    font-style: var(--letra-nav);
+  }
+  
+  .form-control {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    background: transparent;
+  }
+  
+  .form-control:focus {
+    outline: none;
+  }
+  
+  select{
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    background: transparent;
+    color: var(--color-gris-fuerte);
+    background-color: var(--color-blanco-solido);
+    display: flex;
+    padding: 15px 5px;
+  }
+  
+  .guardar {
+    background: var(--color-gris-fuerte);
+    color: var(--color-blanco-solido);
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    border: none;
+    padding: 12px 60px;
+    cursor: pointer;
+    border-radius: 6px;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+  
+  .div-form form .div-enviar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
